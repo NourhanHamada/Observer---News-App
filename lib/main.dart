@@ -69,7 +69,6 @@ class MyApp extends StatelessWidget {
       home: AnimatedSplashScreen(
         splash: logoLarge,
         nextScreen:
-        // OnboardScreen(),
         isViewed != 0 ? OnboardScreen() : LayOut(),
         centered: true,
         duration: 3000,
